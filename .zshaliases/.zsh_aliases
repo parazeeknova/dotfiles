@@ -1,0 +1,46 @@
+# General use aliases
+alias cp="cp -iv"
+alias mkdir="mkdir -pv"
+alias mv="mv -iv"
+alias rm="rm -rf --"
+
+# eza aliases
+alias ls="exa --color=auto --icons"
+alias la="exa -la --color=auto --icons"
+alias ll="exa -alh --color=auto --icons"
+alias lt="exa -a --tree --color=auto --icons" # show tree in directory
+
+# colorize grep output (good for log files)
+alias grep="grep --color=auto"
+
+# system aliases
+alias pewup="sudo pacman -Syu"
+alias pewrm="sudo pacman -R"
+alias pewin="sudo pacman -S"
+alias pewsr="sudo pacman -Ss"
+
+# clear terminal
+alias cls="clear"
+
+# create directory recursive
+alias mkdir="mkdir -pv"
+
+# pyenv aliases
+alias aenv="source .venv/bin/activate"
+alias cenv="python3 -m venv .venv"
+alias denv="deactivate"
+
+# update pip
+alias pipu="pip install pip --upgrade"
+alias pipr="pip install -r requirements.txt"
+
+# nvim aliases
+alias nvimconf="cd $HOME/.config/nvim && nvim"
+alias nvimclean="nvim --clean"
+
+# i3 and polybar aliases 
+alias i3conf="nvim $HOME/.config/i3/config"
+alias polybarconf="nvim $HOME/.config/polybar/config.ini"
+
+# terminal aliases
+alias alacrittyconf="nvim $HOME/.config/alacritty/alacritty.toml"
