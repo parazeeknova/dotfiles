@@ -10,7 +10,7 @@ padding = { x = 3, y = 3 }
 dynamic_padding = true
 
 [font]
-size = 7.0
+size = 10.0
 
 [font.bold]
 family = "FiraCode Nerd Font Mono"
