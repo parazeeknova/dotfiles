@@ -24,6 +24,7 @@ Details about my workflow :
 - Window Manager : [i3wm](https://i3wm.org/)
 - Bar : [Polybar](https://github.com/polybar/polybar)
 - Terminal Emulator : [Alacritty](https://github.com/alacritty/alacritty)
+- launcher : Rofi
 - Another Terminal Emulator : [Kitty](https://sw.kovidgoyal.net/kitty/)
 - Shell : [Zsh](https://www.zsh.org/)
   - Editor : [Neovim](https://neovim.io/)
@@ -40,11 +41,12 @@ Details about my workflow :
 > Settings applied by this repository are personal, and definitely not suite everyones needs. Don’t blindly use my settings unless you know what that entails. Use at your own risk!
 
 ### Arch Linux
-```bash
-sudo pacman -S stow eza zsh neovim tmux picom neofetch
+
 Install tpm for tmux plugins from [here](https://github.com/tmux-plugins/tpm)
 Install nerd fonts (Firacode,Jetbrains Mono, Meslo) 
 Install zimfw
+```bash
+sudo pacman -S stow eza zsh neovim tmux picom neofetch
 ```
 
 To other distros, install `stow` using your package manager.
@@ -58,10 +60,7 @@ Use stow to symlink the configuration files to the respective folders.
 stow <respective-config-folder-name>
 ```
 
-## To-Do
-- [ ] Configure i3lock 
-- [ ] Configure rofi for system menus
-- [ ] Change mouse cursor
+Simple :)
 
 ## Credits
 
