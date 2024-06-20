@@ -41,7 +41,10 @@ Details about my workflow :
 
 ### Arch Linux
 ```bash
-sudo pacman -S stow
+sudo pacman -S stow eza zsh neovim tmux picom neofetch
+Install tpm for tmux plugins from [here](https://github.com/tmux-plugins/tpm)
+Install nerd fonts (Firacode,Jetbrains Mono, Meslo) 
+Install zimfw
 ```
 
 To other distros, install `stow` using your package manager.

@@ -14,7 +14,7 @@ exec --no-startup-id dex --autostart --environment i3
 exec --no-startup-id picom
 exec --no-startup-id dunst -config "$HOME/.config/dunst/dunstrc"
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
-exec_always feh --bg-scale ~/.wallpapers/forest.png
+exec_always feh --bg-scale ~/.wallpapers/mist_forest_2.png
 exec_always autotiling
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
