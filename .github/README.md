@@ -35,6 +35,12 @@ Details about my workflow :
 - File  Manager : [Thunar](https://docs.xfce.org/xfce/thunar/start)
 - CLI System Monitor : Neofetch
 
+## VSCode Configuration (NeoVim)
+- Uses VSCode Neovim extension
+- Removed UI elements with apc Customize UI ++
+
+![vscode](vscode.png)
+
 ## Installation
 
 > [!CAUTION]
