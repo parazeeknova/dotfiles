@@ -16,15 +16,18 @@
 
 <figure>
   <figcaption> By the end of this dotfile configs, you'll have a clean and functional setup like these: </figcaption>
+  <br>
   <a href="https://github.com/parazeeknova/dotfiles/">
     <img src="assets/Rice.png" alt="Logo" width="100%">
   </a>
   <figcaption>i3wm workflow</figcaption>
+  <br>
 
   <a href="https://github.com/parazeeknova/dotfiles/">
     <img src="assets/hyprland.png" alt="Logo" width="100%">
   </a>
   <figcaption>hyprland workflow</figcaption>
+  <br>
 </figure>
 
 ## About 🚀
@@ -60,6 +63,9 @@ The Installation is divided into the following sections:
 3. [Configuration](docs/configuration.md)
 4. [Customization](docs/customization.md)
 5. [Summary](docs/summary.md)
+
+## Development 🛠 
+![Development Graph](https://repobeats.axiom.co/api/embed/9b5606635eb9015b539e02602c736236dbf60905.svg "Repobeats analytics image")️
 
 ## Credits
 
