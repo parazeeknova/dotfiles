@@ -1,72 +1,50 @@
-<p align="center">
+<div align="center">
+
   <a href="https://github.com/parazeeknova/dotfiles/">
-    <img src="dotfiles.png" alt="Logo" width="80%">
+    <img src="assets/dotfiles.png" alt="Logo" width="80%">
   </a>
-</p>
 
-<p align="center">
-  <a href="#about">About</a> |
-  <a href="#installation">Installation</a> |
-  <a href="#Credits">Credits</a>
-</p>
+  <br>
 
-## About
+  <a href="#installation"><kbd> <br> Installation <br> </kbd></a>&ensp;&ensp;
+  <a href="#documentation"><kbd> <br> Documentation <br> </kbd></a>&ensp;&ensp;
+  <a href="#keybindings"><kbd> <br> Keybindings <br> </kbd></a>&ensp;&ensp;
+  <a href="#credits"><kbd> <br> Credits <br> </kbd></a>
+</div>
 
-![preview](Rice.png)
+<figure>
+  <figcaption> By the end of this dotfile configs, you'll have a clean and functional setup like these: </figcaption>
+  <a href="https://github.com/parazeeknova/dotfiles/">
+    <img src="assets/Rice.png" alt="Logo" width="100%">
+  </a>
+  <figcaption>i3wm workflow</figcaption>
 
-This repository contains my dotfiles for my Arch Linux system, which I use as a Computer Science undergraduate. This repository serves both as a backup for my configuration files and as a guide for others who wish to replicate my setup.
+  <a href="https://github.com/parazeeknova/dotfiles/">
+    <img src="assets/hyprland.png" alt="Logo" width="100%">
+  </a>
+  <figcaption>hyprland workflow</figcaption>
+</figure>
 
-> [!NOTE]
-> This repository is a work in progress, and I will be updating it as I make changes to my system.
+## About 🚀
+This repository contains my dotfiles for my Arch Linux system (i3 and hyprland), which I use as a Computer Science undergraduate. This repository serves both as a backup for my configuration files and as a guide for others who wish to replicate my setup.
 
-Details about my workflow :
-- Linux Distribution : Arch Linux
-- Window Manager : [i3wm](https://i3wm.org/)
-- Bar : [Polybar](https://github.com/polybar/polybar)
-- Terminal Emulator : [Alacritty](https://github.com/alacritty/alacritty)
-- launcher : Rofi
-- Another Terminal Emulator : [Kitty](https://sw.kovidgoyal.net/kitty/)
-- Shell : [Zsh](https://www.zsh.org/)
-  - Editor : [Neovim](https://neovim.io/)
-  - Neovim configuration : [lazyvim](https://www.lazyvim.org/)
-  - Multiplexer : [Tmux](https://github.com/tmux/tmux)
-  - Prompt : [zimfw](https://zimfw.sh/)
-- Compositor : [Picom](https://github.com/yshui/picom)
-- File  Manager : [Thunar](https://docs.xfce.org/xfce/thunar/start)
-- CLI System Monitor : Neofetch
+## VSCode Configuration (NeoVim) 📝
+<figure>
+  <figcaption> Uses VSCode Neovim extension </figcaption>
+  <a href="https://github.com/parazeeknova/dotfiles/">
+    <img src="assets/vscode.png" alt="Logo" width="100%">
+  </a>
+  <figcaption>Removed UI elements with apc Customize UI ++</figcaption>
+</figure>
 
-## VSCode Configuration (NeoVim)
-- Uses VSCode Neovim extension
-- Removed UI elements with apc Customize UI ++
+## Documentation 📚
+The documentation is divided into the following sections:
+1. [Prerequisites](.github/docs/prerequisites.md)
+2. [Installation](.github/docs/installation.md)
+3. [Configuration](.github/docs/configuration.md)
+4. [Customization](.github/docs/customization.md)
+5. [Summary](.github/docs/summary.md)
 
-![vscode](vscode.png)
-
-## Installation
-
-> [!CAUTION]
-> Settings applied by this repository are personal, and definitely not suite everyones needs. Don’t blindly use my settings unless you know what that entails. Use at your own risk!
-
-### Arch Linux
-
-Install tpm for tmux plugins from [here](https://github.com/tmux-plugins/tpm)
-Install nerd fonts (Firacode,Jetbrains Mono, Meslo) 
-Install zimfw
-```bash
-sudo pacman -S stow eza zsh neovim tmux picom neofetch
-```
-
-To other distros, install `stow` using your package manager.
-
-### Setup
-
-Clone the repository to your home directory.
-
-Use stow to symlink the configuration files to the respective folders.
-```bash
-stow <respective-config-folder-name>
-```
-
-Simple :)
 
 ## Credits
 
