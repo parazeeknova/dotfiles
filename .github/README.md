@@ -14,21 +14,20 @@
 
 <br>
 
-<figure>
-  <figcaption> By the end of this dotfile configs, you'll have a clean and functional setup like these: </figcaption>
-  <br>
+<div align="center">
+
+###### *<div align="right"><sub>// i3wm workflow</sub></div>*
   <a href="https://github.com/parazeeknova/dotfiles/">
-    <img src="assets/Rice.png" alt="Logo" width="100%">
+    <img src="assets/Rice.png" alt="Logo" width="90%">
   </a>
-  <figcaption>i3wm workflow</figcaption>
+  
   <br>
 
+###### *<div align="right"><sub>// hyprland workflow</sub></div>*
   <a href="https://github.com/parazeeknova/dotfiles/">
-    <img src="assets/hyprland.png" alt="Logo" width="100%">
+    <img src="assets/hyprland.png" alt="Logo" width="90%">
   </a>
-  <figcaption>hyprland workflow</figcaption>
-  <br>
-</figure>
+</div>
 
 ## About 🚀
 This repository contains my dotfiles for my Arch Linux system (i3 and hyprland), which I use as a Computer Science undergraduate. This repository serves both as a backup for my configuration files and as a guide for others who wish to replicate my setup.
@@ -70,3 +69,7 @@ The Installation is divided into the following sections:
 ## Credits
 
 Copyright © 2024 Parazeeknova
+
+<div align="right">
+  <a href="#about-"><kbd> <br> 🡅 <br> </kbd></a>
+</div>
