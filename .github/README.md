@@ -61,10 +61,7 @@ The Installation is divided into the following sections:
 2. [Installation](docs/installation.md)
 3. [Configuration](docs/configuration.md)
 4. [Customization](docs/customization.md)
-5. [Summary](docs/summary.md)
-
-## Development 🛠 
-![Development Graph](https://repobeats.axiom.co/api/embed/9b5606635eb9015b539e02602c736236dbf60905.svg "Repobeats analytics image")️
+5. [Summary](docs/summary.md)️
 
 ## Credits
 
