@@ -1,0 +1,159 @@
+branding:
+  custom-footer: |
+    <p>Powered by <a href="https://github.com/parazeeknova/zephyr">Zephyr</a></p>
+
+pages:
+  - name: Zephyr OCI
+    width: wide
+    hide-desktop-navigation: true
+    columns:
+      - size: small
+        widgets:
+          - type: weather
+            location: Bhopal, India
+
+          - type: markets
+            title: Crypto
+            markets:
+              - symbol: BTC-USD
+                name: Bitcoin
+              - symbol: ETH-USD
+                name: Ethereum
+
+          - type: releases
+            show-source-icon: true
+            token: redacted
+            repositories:
+             - go-gitea/gitea
+             - glanceapp/glance
+             - coollabsio/coolify
+             - vercel/next.js
+             - vercel/turborepo
+
+          - type: markets
+            title: Stocks
+            sort-by: absolute-change
+            markets:
+              - symbol: NVDA
+                name: NVIDIA
+              - symbol: AAPL
+                name: Apple
+              - symbol: MSFT
+                name: Microsoft
+              - symbol: GOOGL
+                name: Google
+              - symbol: AMD
+                name: AMD
+              - symbol: AMZN
+                name: Amazon
+              - symbol: TSLA
+                name: Tesla
+              - symbol: META
+                name: Meta
+                
+
+      - size: full
+        widgets:
+          - type: search
+            title: Search
+            autofocus: true
+
+          - type: monitor
+            cache: 1m
+            title: Zephyr OCI Services
+            sites:
+              - title: Gitea
+                url: redacted
+                icon: si:gitea
+              - title: Nextcloud
+                url: redacted
+                icon: si:nextcloud
+              - title: Owncloud
+                url: redacted
+                icon: si:owncloud
+              - title: ConvertX
+                url: redacted
+                icon: si:convertio
+              - title: Slash
+                url: redacted
+                icon: si:slashdot
+              - title: Coolify
+                url: redacted
+                icon: si:codio
+              - title: Glances stats
+                url: redacted
+                icon: si:geopandas
+              - title: Zephyr dev
+                url: redacted
+                icon: si:fluentd
+              - title: Zephyr chat dev
+                url: redacted
+                icon: si:googlechat
+              - title: Zephyr Database - dev
+                url: redacted
+                icon: si:postgresql
+              - title: Zephyr Minio - dev
+                url: redacted
+                icon: si:minio
+              - title: Ollama
+                url: redacted
+                icon: si:ollama
+              - title: Zephyr Image Optimization
+                url: redacted
+                icon: si:nextdotjs
+              - title: SearXNG
+                url: redacted
+                icon: si:searxng
+              - title: VS Code Server
+                url: redacted
+                icon: si:coder
+              - title: Myfolio
+                url: redacted
+                icon: si:bootstrap
+              - title: Wordpress
+                url: redacted
+                icon: si:wordpress
+              - title: Glance
+                url: redacted
+                icon: si:goodreads
+                
+          - type: repository
+            token: redacted
+            repository: parazeeknova/zephyr
+            pull-requests-limit: 5
+            issues-limit: 5
+            commits-limit: 8
+            
+          - type: repository
+            token: redacted
+            repository: parazeeknova/velastria
+            pull-requests-limit: 5
+            issues-limit: 5
+            commits-limit: 8
+
+      - size: small
+        widgets:
+          - type: clock
+            hour-format: 12h
+            timezones:
+             - timezone: Europe/Paris
+               label: Paris
+             - timezone: America/New_York
+               label: New York
+             - timezone: Asia/Tokyo
+               label: Tokyo
+          
+          - type: calendar
+            title: Calendar
+
+          - type: hacker-news
+            title: Hacker News
+
+          - type: twitch-channels
+            channels:
+              - theprimeagen
+              - cohhcarnage
+              - christitustech
+              - blurbs
+              - asmongold
+              - jembawls
